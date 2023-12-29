@@ -4,6 +4,6 @@ COPY target/spring-boot-docker-app.jar  /usr/app/
 
 WORKDIR /usr/app/
 
-EXPPOS 8080
+EXPPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "spring-boot-docker-app.jar"]
